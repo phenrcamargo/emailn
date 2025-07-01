@@ -1,0 +1,41 @@
+POST http://localhost:3000/campaign/
+content-type: application/json
+
+{
+    "Name": "Mousepad Gamer",
+	"Content":  "Promoção mousepad gamer",
+	"Contacts": [
+		{
+			"FirstName": "Teste 2",
+			"LastName": "Teste 2",
+			"Phone": "19999780673",
+			"Email": "teste2@email.com"
+		},
+		{
+			"FirstName": "Teste 2",
+			"LastName": "Teste 2",
+			"Phone": "19999780673",
+			"Email": "teste2@email.com"
+		},
+		{
+			"FirstName": "Teste 2",
+			"LastName": "Teste 2",
+			"Phone": "19999780673",
+			"Email": "teste2@email.com"
+		},
+		{
+			"FirstName": "Teste 2",
+			"LastName": "Teste 2",
+			"Phone": "19999780673",
+			"Email": "teste2@email.com"
+		}
+	]
+}
+
+###
+GET http://localhost:3000/campaign/
+Content-Type: application/json
+
+###
+Get http://localhost:3000/campaign/d1bcjem554kj4v28a5g0
+Content-Type: application/json
