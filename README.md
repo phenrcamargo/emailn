@@ -1,2 +1,2 @@
 # emailn
-Repository of application created for Golang studies
+Learning project with Golang
